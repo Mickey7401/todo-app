@@ -46,7 +46,7 @@ export default function App() {
       <Text
         style={[
           styles.text,
-          item.completed && styles.completed,
+          item.completed && styles.completed
         ]}
       >
         {item.description}
