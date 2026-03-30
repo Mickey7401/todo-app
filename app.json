@@ -2,10 +2,8 @@
   "expo": {
     "name": "todo-app",
     "slug": "todo-app",
-    "web": {
-      "bundler": "metro",
-      "output": "static",
-      "baseUrl": "/todo-app/"
+    "experiments": {
+      "baseUrl": "/todo-app"
     }
   }
 }
